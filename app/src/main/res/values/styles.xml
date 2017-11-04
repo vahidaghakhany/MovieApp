@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/md_blue_800</item>
+        <item name="colorPrimaryDark">@color/md_blue_900</item>
+        <item name="colorAccent">@color/md_blue_grey_500</item>
+    </style>
+
+
+
+    <!--TextViews-->
+    <style name="TextView" >
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+    <style name="TextView.Medium" >
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+    <style name="TextView.Small" >
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    <style name="TextView.XSmall" >
+        <item name="android:textSize">@dimen/text_xsmall</item>
+    </style>
+    <style name="TextView.Large" >
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+</resources>
